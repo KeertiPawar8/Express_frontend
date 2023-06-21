@@ -147,7 +147,12 @@ document.querySelector("#pay").addEventListener("click",checkout)
 
 
 function checkout(){
-    window.location.href = "./payment.html"
+  
+  // window.location.href = "./payment.html"
+  window.location.href = "./thank.html"
+  // alert("Checkout Stopped for a while due to security error")
+
+
 }
 
 
@@ -159,6 +164,9 @@ document.querySelector("#cart").addEventListener("click",opencart)
 
 function opencart(){
   window.location.href = "./cart.html"
+
+
+  
 }
 
 document.querySelector("#mens").addEventListener("click",openmens)
